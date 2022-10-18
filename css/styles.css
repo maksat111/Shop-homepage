@@ -1,0 +1,147 @@
+
+.body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color: rgb(98, 157, 197);
+    color: #fff;
+}
+
+.surat{
+    border: inset;
+    width: 20rem; 
+    height: 32rem;
+    transform: rotate(15deg);
+    border-radius: 12%;
+    position: absolute;
+    top: -5%;
+   left: 25%;
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+    }
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat-Bold";
+}
+p{
+    color: #6a6a6a;
+}
+.container-fluid{
+    padding: 3% 10%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+
+}
+.nav-item{
+    padding: 0 18px;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.nav-link{
+    font-family: "Montserrat-Light";
+    font-size: 1.2rem;
+}
+.download-button{
+    margin: 5% 7% 10% 0;
+}
+#features{
+    padding: 7% 10% 7% 10%;
+    background-color: #fff;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 7%;
+}
+
+/* testimonial section */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+    background-color:  #41403f;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+#first{
+    padding: 10% 10%;
+    text-align: center;
+}
+#second{
+    padding: 10% 10%;
+    text-align: center;
+}
+
+.sign-up-button{
+    width: 100%
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 70px 100px 100px 100px;
+    text-align: center;
+}
+.column-price{
+    padding: 3% 2%;
+}
+
+/* cta section */
+
+#cta{
+    background-color: #41403f;
+    color: #fff;
+    padding: 7% 10% 7% 10%;
+    text-align: center;
+}
+.cta-text{
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.cta-button{
+    margin: 5% 2% 0 2%;
+}
+
+/* footer seсtion */
+
+#footer{
+    padding: 7% 15% 2%;
+    text-align: center;
+    
+}
+
+.copyright{
+    margin: 0;
+}
+
+
+@media (max-width: 991px){
+    .surat{
+        position: static;
+        transform: rotate(0)
+    }
+}
